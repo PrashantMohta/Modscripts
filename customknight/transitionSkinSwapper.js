@@ -24,6 +24,7 @@ var onReady = ()=>{
     skins = CK.SkinManager.GetInstalledSkins();
     scenes = 0;
     UnityEngine.SceneManagement.SceneManager.add_activeSceneChanged(sceneHook);
+    preload();
 }
 
 CK.CustomKnight.add_OnReady(onReady);
